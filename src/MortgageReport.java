@@ -21,14 +21,14 @@ public class MortgageReport {
 
         System.out.println("========");
         System.out.println("mortgage".toUpperCase());
-        System.out.println("========".toUpperCase());
+        System.out.println("========");
         System.out.printf("Monthly Payments: %s%n", mortgageFormatted);
     }
 
     public void printPaymentSchedule() {
         System.out.println();
         System.out.println("payment schedule".toUpperCase());
-        System.out.println("================".toUpperCase());
+        System.out.println("================");
 
         for (double balance : mortgageCalculator.getRemainingBalance()) {
             System.out.println(currency.format(balance));
